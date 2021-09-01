@@ -14,7 +14,7 @@ def binary_search(x, y):
 
 
 if __name__ == '__main__':
-    y = 7
+    y = -1
     list = [1, 3, 4, 7, 9, 11, 14, 17]
     y_index = binary_search(list, y)
-    print(y_index[1])
+    print(y_index)
