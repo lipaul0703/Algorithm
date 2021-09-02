@@ -39,7 +39,7 @@ def bucket_sort_des(list_input):  # in descending order
 
 
 if __name__ == '__main__':
-    number_list = number_keyin(10)
+    number_list = number_keyin(5)
     print("各數字出現次數:", number_list)
     number_sort_as = bucket_sort_as(number_list)
     print("由小排序到大:", number_sort_as)
